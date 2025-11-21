@@ -5,7 +5,7 @@ on:
   push:
     branches: 
     - my_answer
-
+  workflow_dispatch:
 jobs:
   run_spec:
     name: Run spec

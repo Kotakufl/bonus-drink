@@ -33,6 +33,15 @@
 bundle install
 bundle exec rspec
 ````
+
+## トラブルシューティング
+
+### Actionsを有効化する前にpushしてしまった場合
+
+1. Actionsタブで"Ruby"ワークフローを選択
+2. "Run workflow"ボタンをクリック
+3. ブランチ(`my_answer`)を選択して実行
+
 ## 参考 
 
 [GitHub Actionsについて](https://docs.github.com/ja/actions)
